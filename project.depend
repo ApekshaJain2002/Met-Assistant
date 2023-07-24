@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1683298411 source:c:\users\abiha\onedrive\documents\c\project\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<map>
+	<queue>
+	<string>
+	<graphics.h>
+
+1683283679 c:\program files (x86)\dev-cpp\mingw64\include\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1683283679 c:\program files (x86)\dev-cpp\mingw64\include\mysql_com.h
+
+1683283679 c:\program files (x86)\dev-cpp\mingw64\include\mysql_time.h
+
+1683283679 c:\program files (x86)\dev-cpp\mingw64\include\mysql_version.h
+	<custom_conf.h>
+
+1683283679 c:\program files (x86)\dev-cpp\mingw64\include\typelib.h
+
+1683283679 c:\program files (x86)\dev-cpp\mingw64\include\my_list.h
+
+1683283679 c:\program files (x86)\dev-cpp\mingw64\include\my_alloc.h
+
+1683314914 source:c:\users\abiha\onedrive\desktop\project\project\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<map>
+	<queue>
+	<string>
+	<graphics.h>
+
