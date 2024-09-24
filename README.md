@@ -1,32 +1,89 @@
-# Met-Assistant
+Here's a refined and organized README file for your project, **Met-Assistant**. Feel free to copy it directly into your GitHub repository:
+
+---
+
 # MetAssistant - Metro System Assistant using Graphs
 
-MetAssistant is a C++ project that serves as an assistant for the metro system. It utilizes graph data structures and algorithms to perform various tasks related to the metro system. The project provides the following features:
+**MetAssistant** is a C++ project designed to assist users with metro navigation. It uses graph data structures and algorithms to provide essential information such as the shortest routes, minimum fares, and travel times between stations. 
+
+## Table of Contents
+- [Features](#features)
+- [Implementation](#implementation)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
-1. **Display full station map:**
-   The system allows users to visualize the complete map of the metro system, displaying all the stations and their connections. This feature provides a comprehensive overview of the entire metro network.
+MetAssistant offers the following functionalities:
 
-2. **Minimum fare between two stations:**
-   Users can find the cheapest route for their journey between any two input origin and destination stations. The system employs graph algorithms to determine the minimum fare among all available paths.
+1. **Display Full Metro Map:**
+   - View a graphical representation of the entire metro system, including stations and connections.
 
-3. **Minimum time to reach between stations:**
-   For commuters looking to minimize their travel time, this feature calculates the shortest time it takes to reach the destination station from the origin station. The system analyzes all available paths to find the fastest route.
+2. **Find Minimum Fare:**
+   - Calculate the cheapest fare between two stations by analyzing all possible routes.
 
-4. **Shortest distance between two stations:**
-   Travelers can find the shortest distance between any two input origin and destination stations using this feature. The system leverages graph algorithms to identify the minimum distance among all available paths.
+3. **Calculate Minimum Travel Time:**
+   - For users prioritizing speed, the program finds the fastest route between stations.
 
-5. **All interchanges between two stations:**
-   This function displays all the metro and station line changes between the origin and destination stations. Users can quickly identify the interchange points for a more convenient journey.
+4. **Find Shortest Distance:**
+   - Identify the shortest physical distance between any two metro stations.
 
-## Implementation using Graphs
+5. **List All Interchanges:**
+   - Display all metro line changes between two stations, helping users plan their journey with interchanges.
 
-The MetAssistant project is implemented using graph data structures and algorithms. Stations in the metro system are represented as vertices, and the connections between stations are represented as edges in the graph. The graph algorithms employed in the project help in solving various metro-related queries efficiently.
+6. **Add New Stations:**
+   - Expand the metro system by adding new stations and updating connections.
 
+## Implementation
 
-The project utilizes graph algorithms like Dijkstra's algorithm and breadth-first search (BFS) to compute the minimum fare, minimum time, and shortest distance between stations. These algorithms ensure the optimal and accurate results for the queries.
+MetAssistant uses graph data structures, where stations are represented as vertices, and connections between them are edges. The following algorithms and techniques are applied:
+- **Dijkstra's Algorithm:** To compute the shortest path (in terms of distance and time) between stations.
+- **Breadth-First Search (BFS):** To identify interchanges and explore all possible paths.
+- **Graph Representation:** Using adjacency lists and other C++ Standard Template Library (STL) features.
 
-Feel free to explore the code in the repository and make any improvements or modifications to suit your specific metro system's requirements.
+The project’s user-friendly interface enables seamless interaction, making it easy for commuters to get information on fares, travel times, and route details.
 
-Happy metro traveling with MetAssistant!
+## Getting Started
+
+### Prerequisites
+- A C++ compiler (e.g., GCC)
+- A basic understanding of graph theory and algorithms
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Met-Assistant.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Met-Assistant
+   ```
+3. Compile the code:
+   ```bash
+   g++ main.cpp -o MetAssistant
+   ```
+
+4. Run the application:
+   ```bash
+   ./MetAssistant
+   ```
+
+## Usage
+
+Upon running the program, the user will be prompted to enter the origin and destination stations. The program will then provide the following options:
+1. Display the full metro map.
+2. Find the minimum fare between two stations.
+3. Calculate the minimum time between stations.
+4. Show the shortest distance between stations.
+5. List all interchanges between stations.
+
+The user can select any of these options based on their requirements.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the project, create a new branch, and submit a pull request. Ensure that your code is well-documented and tested before submission.
+![screenshot2](https://github.com/user-attachments/assets/441754a1-c5f1-46d5-8289-9b8903c130f9)
+![image](https://github.com/user-attachments/assets/7e68274b-ab12-4247-a446-8e2012255bc1)
+
